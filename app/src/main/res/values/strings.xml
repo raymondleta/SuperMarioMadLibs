@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="mario_pic">mario pic</string>
+    <string name="mario_madlibs">Mario Madlibs</string>
+    <string name="play">Play</string>
+</resources>
