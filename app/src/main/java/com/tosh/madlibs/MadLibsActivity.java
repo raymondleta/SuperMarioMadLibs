@@ -23,12 +23,13 @@ public class MadLibsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mad_libs);
 
-        veges = (EditText) findViewById(R.id.veges);
+        veges = (EditText) findViewById(R.id.vegesTextView);
         fruit = (EditText) findViewById(R.id.fruit);
         pastTense = (EditText) findViewById(R.id.past_tense);
         adjective = (EditText) findViewById(R.id.adjective);
-        firstName = (EditText) findViewById(R.id.firstName;
+        firstName = (EditText) findViewById(R.id.firstName);
         pastTenseVerb = (EditText) findViewById(R.id.past_tense_verb);
+        playTwo = (Button) findViewById(R.id.playTwo);
 
         playTwo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +42,13 @@ public class MadLibsActivity extends AppCompatActivity {
                 String pastTenseVerbs = pastTenseVerb.getText().toString();
 
                 Intent intent = new Intent(MadLibsActivity.this, AnswersActivity.class);
+                intent.putExtra("vege", vege);
+                intent.putExtra("fruits", fruits);
+                intent.putExtra("pastTense", pastTenses);
+                intent.putExtra("adjectives", adjectives);
+                intent.putExtra("firstNames", firstNames);
+                intent.putExtra("pastTenseVerbs", pastTenseVerbs);
+                startActivity(intent);
             }
         });
 

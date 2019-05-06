@@ -9,4 +9,6 @@
     <string name="adjective">Adjective</string>
     <string name="first_name">First Name</string>
     <string name="button">Button</string>
+    <string name="fruits">fruits</string>
+    <string name="veges">veges</string>
 </resources>
