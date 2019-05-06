@@ -99,7 +99,7 @@
         android:importantForAutofill="no" tools:targetApi="o" />
 
     <Button
-        android:id="@+id/play2"
+        android:id="@+id/playTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
