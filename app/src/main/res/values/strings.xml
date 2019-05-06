@@ -3,4 +3,10 @@
     <string name="mario_pic">mario pic</string>
     <string name="mario_madlibs">Mario Madlibs</string>
     <string name="play">Play</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruit">Fruit</string>
+    <string name="past_tense_verb">Past Tense Verb</string>
+    <string name="adjective">Adjective</string>
+    <string name="first_name">First Name</string>
+    <string name="button">Button</string>
 </resources>
